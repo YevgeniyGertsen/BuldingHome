@@ -33,12 +33,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\3Les-Csharp-13.02.19\RandomUser\bin\Debug\Newtonsoft.Json.dll</HintPath>
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.12.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
-    <Reference Include="RandomUser">
-      <HintPath>..\..\3Les-Csharp-13.02.19\RandomUser\bin\Debug\RandomUser.dll</HintPath>
+    <Reference Include="RandomUser, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\RandomUser.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -53,8 +53,9 @@
     <Compile Include="Intarface\IPart.cs" />
     <Compile Include="Intarface\ITask.cs" />
     <Compile Include="Intarface\○ IWorker.cs" />
-    <Compile Include="Model\Basement.cs" />
+    <Compile Include="Model\PartOfHause\Basement.cs" />
     <Compile Include="Model\HouseProject.cs" />
+    <Compile Include="Model\Task.cs" />
     <Compile Include="Model\Team.cs" />
     <Compile Include="Model\TeamLeader.cs" />
     <Compile Include="Model\Worker.cs" />
@@ -63,6 +64,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -6,11 +6,12 @@ using System.Threading.Tasks;
 
 namespace BuildHouse.Intarface
 {
-    interface IPart
+    public interface IPart
     {
         string name { get; set; }
         double price { get; set; }
         int count { get; set; }
+        int order { get; set; }
         ITask task { get; set; }
         string getInfo(); 
     }

@@ -12,27 +12,32 @@ namespace BuildHouse.Model
     {
         public List<IWorker> team = new List<IWorker>();
 
+        Random rnd = new Random();
+
         public void createTeam()
         {
-            Random rnd = new Random();
-
             var user = GenerateUser.GetUser();
 
             TeamLeader tl = new TeamLeader();
-            tl.fullName= user.name.title + user.name.first;
+            tl.fullName= string.Format("{0} {1}",user.name.title, user.name.first);
             tl.salary= rnd.Next(1000, 5000);
             team.Add(tl);
 
-            for (int i = 0; i < rnd.Next(4,20); i++)
+            for (int i = 0; i < rnd.Next(4,10); i++)
             {
                 user = GenerateUser.GetUser();
 
                 Worker worker = new Worker(Position.worker);
-                worker.fullName = user.name.title + user.name.first;
+                worker.fullName = string.Format("{0} {1}", user.name.title, user.name.first);
                 worker.salary = rnd.Next(1000, 5000);
 
                 team.Add(worker);
             }
+        }
+
+        public IWorker getWorker()
+        {
+            return team[rnd.Next(0, team.Count-1)];
         }
     }
 }

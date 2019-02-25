@@ -11,3 +11,14 @@ c:\users\герцене\source\repos\BuildHouse\BuildHouse\obj\Debug\BuildHouse.
 c:\users\герцене\source\repos\BuildHouse\BuildHouse\obj\Debug\BuildHouse.csproj.CopyComplete
 c:\users\герцене\source\repos\BuildHouse\BuildHouse\obj\Debug\BuildHouse.exe
 c:\users\герцене\source\repos\BuildHouse\BuildHouse\obj\Debug\BuildHouse.pdb
+C:\Users\ГерценЕ.LOCAL\Source\Repos\BuldingHome\BuildHouse\obj\Debug\BuildHouse.csprojAssemblyReference.cache
+C:\Users\ГерценЕ.LOCAL\Source\Repos\BuldingHome\BuildHouse\obj\Debug\BuildHouse.csproj.CoreCompileInputs.cache
+C:\Users\ГерценЕ.LOCAL\Source\Repos\BuldingHome\BuildHouse\bin\Debug\BuildHouse.exe.config
+C:\Users\ГерценЕ.LOCAL\Source\Repos\BuldingHome\BuildHouse\bin\Debug\BuildHouse.exe
+C:\Users\ГерценЕ.LOCAL\Source\Repos\BuldingHome\BuildHouse\bin\Debug\BuildHouse.pdb
+C:\Users\ГерценЕ.LOCAL\Source\Repos\BuldingHome\BuildHouse\bin\Debug\Newtonsoft.Json.dll
+C:\Users\ГерценЕ.LOCAL\Source\Repos\BuldingHome\BuildHouse\obj\Debug\BuildHouse.csproj.CopyComplete
+C:\Users\ГерценЕ.LOCAL\Source\Repos\BuldingHome\BuildHouse\obj\Debug\BuildHouse.exe
+C:\Users\ГерценЕ.LOCAL\Source\Repos\BuldingHome\BuildHouse\obj\Debug\BuildHouse.pdb
+C:\Users\ГерценЕ.LOCAL\Source\Repos\BuldingHome\BuildHouse\bin\Debug\Newtonsoft.Json.pdb
+C:\Users\ГерценЕ.LOCAL\Source\Repos\BuldingHome\BuildHouse\bin\Debug\Newtonsoft.Json.xml
